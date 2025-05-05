@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC82126C-2C63-B344-2E07-EC99BDB7FAC0" name="ImcHistorico">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>BBE1C6CE-2215-A61F-5AC3-C9827141CC1A</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedicao" id="C26C674A-8BD3-F590-1591-C0E0E0BD9DF5">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>C8933ACF-B89B-16D3-E418-B3FE2DEA425A</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMedicao" id="089F9FC7-5DFD-06AE-9613-56684921F938">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>3A648A03-A597-BD99-3B6B-DEB2874C7030</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaMedicao" id="A0703A0A-E00B-F8A8-FE25-E6C1D2F67DDA">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>82FD61C5-DDB0-6C8D-7A2A-CDF229465A72</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="EE033C10-A987-B2BB-56EC-AAC9430B28FD">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>126ACDDB-EAA0-C439-1EC6-0B1ADBD68806</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrimcPessoa" id="71FC1173-2B16-0764-F0C7-546CE479CCF1">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>CBA37BA5-3226-E55F-2FFB-F14EFC9E60CA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseimcPessoa" id="60F36C57-676C-42A4-6D31-7686FCADDA61">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>2678C3FC-5399-37A5-26D3-9F3E9420011E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa1" id="D5FD38A4-7982-7CC2-7441-93C34E1155C8">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>9292A1A3-A8EF-8AF4-AD16-E715075B87C5</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED7FE82E-593A-7048-B5BA-F615BD1F3106" referredColumn="43B99D77-E285-E82A-92B5-DE0F98F29D06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5F506DF1-2380-4ABF-E1AB-42649654819C" name="ImcHistorico_PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>9D7FCB83-1371-2CA4-FDBF-7F97D22BD26B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE033C10-A987-B2BB-56EC-AAC9430B28FD"/>
+<colUsage columnID="C26C674A-8BD3-F590-1591-C0E0E0BD9DF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0F57661-677C-9546-C778-5A980F6606A7" name="calcula">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>E0FABD58-7F2E-8A7B-2E9B-6B59C5129C92</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5FD38A4-7982-7CC2-7441-93C34E1155C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

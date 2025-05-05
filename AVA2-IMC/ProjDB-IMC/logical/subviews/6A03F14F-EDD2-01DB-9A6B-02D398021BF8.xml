@@ -1,0 +1,27 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="6A03F14F-EDD2-01DB-9A6B-02D398021BF8">
+<createdBy>sarah.monteiro</createdBy>
+<modifiedBy>sarah.monteiro</modifiedBy>
+<createdTime>2025-04-07 23:39:48 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="E0FABD58-7F2E-8A7B-2E9B-6B59C5129C92" otype="Relation" vid_source="77CAAB7B-2371-C07E-3C40-C2351E8E1C64" vid_target="81701D27-AAAC-5E51-C1ED-9DFBA60E9BE0">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="314" y="180"/>
+<point x="398" y="180"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>
