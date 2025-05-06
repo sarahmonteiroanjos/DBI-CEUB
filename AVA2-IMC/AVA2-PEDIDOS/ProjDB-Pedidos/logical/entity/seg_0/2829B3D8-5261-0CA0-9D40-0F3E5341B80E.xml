@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2829B3D8-5261-0CA0-9D40-0F3E5341B80E" name="Pedido">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-05 23:19:22 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificacaoPedido" id="7A50573E-9DD7-74A4-C490-42035EFACE39">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-05 23:19:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="7A003FA8-5232-5950-CD95-9221E83C95FD">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-05 23:24:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="259AF9C4-E1EE-0137-B25C-7F85744F1166">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-05 23:39:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="75C6C130-A17E-9FAE-3D87-AAAD7EAD3DE2">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:00:55 UTC</createdTime>
+<generatorID>02D6305E-4868-B98C-7951-543DA3A928E8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<referedAttribute>0A3E243F-8CE5-FBD0-F12E-ED01F811BEF0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="94C2E0C5-0374-BB66-DE1C-5AE829AE9FBB">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:12:45 UTC</createdTime>
+<generatorID>311C7F5D-4A31-E317-55C8-4140C27EC9DD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<referedAttribute>3FECE6BD-609E-4BCD-D9F2-F76F7392064C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="654F1A09-C3EA-0EFA-2EAA-791944B9E6F7" name="Pedido PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-05 23:24:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="0EB09D27-1BA0-B61B-C99A-3D5432EE6789" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7A50573E-9DD7-74A4-C490-42035EFACE39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

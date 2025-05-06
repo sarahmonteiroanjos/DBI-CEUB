@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="86BDA3A7-5281-079F-38DF-33D617848F1B" mainViewID="97650CC2-CB05-46E5-960B-A7C5A91C2DA0">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:33:57 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

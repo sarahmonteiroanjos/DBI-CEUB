@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C20AE740-649E-EA1F-5779-690E0DA1ADCB" name="intemPedido">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>E87EBC88-1482-8D07-D381-CB2C6D896D29</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoProduto" id="5D4EED50-8D94-38DA-4093-7CA73E4ADDC3">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>CAAE5713-8404-3925-6B47-36FC7620A672</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricaoProduto" id="7364F540-EBDC-44BC-8184-47D5D6AEDC56">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>2EB42A40-C709-43EC-9F75-D7ABA2619188</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidadeProduto" id="02BB30D7-F32D-AC3E-9BFE-F58728CCD4C2">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>340DE7D4-ABDF-FBE4-C79A-C7275966D468</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precoUnitario" id="CCB8766E-B377-7125-8697-F20C6D95BCF3">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>F7274D08-1039-38AD-2393-A424B7DF3491</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indentificacaoPedido" id="149826CD-30FC-8DBC-61F4-B178B3B6EA37">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>7A5F6421-9D42-6048-94B7-BB269C138E14</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A5CC6414-FB90-6FC5-EF7A-01444FBDC756" referredColumn="3F632317-8037-0215-15FB-F74270797451"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1E75768-DADA-033F-B8BA-11C21C9EBD4B" name="intemPedido_Pedido_FK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>32CADBDC-17B9-C347-ED52-92CFC0DEB744</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="149826CD-30FC-8DBC-61F4-B178B3B6EA37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

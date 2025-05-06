@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ava-pedidos2" id="9D46B8D5-DAF6-6ACD-6DF8-D7A14D47262D" version="3.5">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:33:57 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9D46B8D5-DAF6-6ACD-6DF8-D7A14D47262D</designId>
+</OSDM_Design>

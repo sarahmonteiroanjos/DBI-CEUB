@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B3AB033-B4B1-1248-7AA1-17742F6D40C1" name="Pedido">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>EB847F8D-E914-C671-0DAA-98C2CDB78A33</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="indentificacaoPedido" id="3F632317-8037-0215-15FB-F74270797451">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>E228A58D-E531-22D0-963C-894AC529D11B</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataHora" id="54DDA974-8EC2-2CF4-E99A-38DFBEEF4348">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>A6041D80-A23F-71F7-8156-8C2D2A8A7F4C</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statusPedido" id="E5CF0551-F0B4-8827-DA4E-1E0A2E6BD3F1">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>E4763BB1-A878-B838-B6BC-74B198D3EB42</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="D2340E86-9A13-6D2E-DACB-E50425447456">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>02508513-80C7-8B5B-6E63-A43DF5B37953</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="75C62716-2E6F-0AAB-220D-86287CC74706" referredColumn="3BD6E2D6-A236-E88D-B4B3-7AEB5D51A059"/>
+</associations>
+</Column>
+<Column name="cpf" id="60393178-163E-5437-002B-2B894FF7F1E3">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>9272E923-C6E1-E4C4-082A-275F812B6B11</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A32E334-2F81-CF8F-B66C-7E8AF2E4D4B2" referredColumn="346C84E4-2E5D-2F70-0ABB-1647E19013BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1184988D-A5F6-4957-CE7E-DEB9FD29D731" name="Pedido_PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>08465689-5DE7-3C8E-BF2E-42FCE91520B7</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F632317-8037-0215-15FB-F74270797451"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E96F49D9-2DEC-1912-84D0-49BDDD4211A3" name="Pedido_Cliente_FK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>ABB07B9B-9491-DA6C-8B84-6C85426352B4</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60393178-163E-5437-002B-2B894FF7F1E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B9E64BE-5082-358C-C6E8-D1C83A8F6713" name="Pedido_Vendedor_FK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>6C7E4282-413E-1710-7C03-AAB58A519DAC</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2340E86-9A13-6D2E-DACB-E50425447456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

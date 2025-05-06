@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A0BCF9B-589C-C6EB-AC29-0157B420FE73" name="Vendedor">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:27:40 UTC</createdTime>
+<generatorID>8ACE29E8-E2C7-328F-02AD-F9DE22DCCA69</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCompleto" id="095C3853-7B13-BF8E-4FEE-8E3B44A85AC4">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:27:40 UTC</createdTime>
+<generatorID>EE2638CB-1290-BCD0-7D76-E0A2DE08C1AA</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="1068E117-3CBB-8E26-C243-A4BE6582EED6">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:27:40 UTC</createdTime>
+<generatorID>0A3E243F-8CE5-FBD0-F12E-ED01F811BEF0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AE106170-6706-901F-FCA9-67C5684320E3" name="Vendedor_PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:27:40 UTC</createdTime>
+<generatorID>A2268C9D-DC65-4588-F8BB-C543280E5047</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1068E117-3CBB-8E26-C243-A4BE6582EED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

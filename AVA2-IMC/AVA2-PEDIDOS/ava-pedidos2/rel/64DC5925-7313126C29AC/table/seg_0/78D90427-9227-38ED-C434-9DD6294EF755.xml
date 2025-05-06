@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="78D90427-9227-38ED-C434-9DD6294EF755" name="Cliente">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>F9B7E061-7DE2-CD0C-FA3A-B15A44C3DF72</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="D86C92FB-059C-F37F-71A9-B493E8A85FDA">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>9D74DBAB-A9C3-CA0F-0E7B-2A5BD589E50D</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="346C84E4-2E5D-2F70-0ABB-1647E19013BD">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>BD490DAA-9169-6D0F-85FA-BE879C1B0DE5</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enderecoCompleto" id="FB0E4D86-32AD-FD10-442F-22BFA9E444F3">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>80F8D7A8-16AC-9E7B-7CB5-FEFEA0C124AD</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="B2B1AB41-3417-3ED7-823F-8A57488AE445">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>897DD54F-3092-6844-EF6C-8044776C5A6C</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0204E4EC-FF4F-5E36-3AE5-EAC35E37DD40" name="Cliente_PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>FA8FC8AC-6FED-ADEA-4326-2B2D9AD21395</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="346C84E4-2E5D-2F70-0ABB-1647E19013BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

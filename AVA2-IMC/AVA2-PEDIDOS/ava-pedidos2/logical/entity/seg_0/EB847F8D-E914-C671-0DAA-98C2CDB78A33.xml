@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EB847F8D-E914-C671-0DAA-98C2CDB78A33" name="Pedido">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:37:31 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="indentificacaoPedido" id="E228A58D-E531-22D0-963C-894AC529D11B">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:37:40 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 CHAR</dataTypeSize>
+<ownDataTypeParameters>4 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="A6041D80-A23F-71F7-8156-8C2D2A8A7F4C">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:38:03 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statusPedido" id="E4763BB1-A878-B838-B6BC-74B198D3EB42">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:38:22 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="02508513-80C7-8B5B-6E63-A43DF5B37953">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:43:27 UTC</createdTime>
+<generatorID>6C7E4282-413E-1710-7C03-AAB58A519DAC</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<referedAttribute>C3BE364A-74F4-351B-7388-8BB3F1CC7757</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9272E923-C6E1-E4C4-082A-275F812B6B11">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:43:44 UTC</createdTime>
+<generatorID>ABB07B9B-9491-DA6C-8B84-6C85426352B4</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<referedAttribute>BD490DAA-9169-6D0F-85FA-BE879C1B0DE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="08465689-5DE7-3C8E-BF2E-42FCE91520B7" name="Pedido PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:38:01 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E228A58D-E531-22D0-963C-894AC529D11B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

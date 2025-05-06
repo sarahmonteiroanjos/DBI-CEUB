@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00227ACE-8B9B-9CB4-AF85-D40F09BB03F3" name="Vendedor">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:38:58 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomeCompleto" id="060DACBC-C756-9100-0B3C-FD3C63AEDE2F">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:39:07 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="C3BE364A-74F4-351B-7388-8BB3F1CC7757">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:39:25 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0D906D2D-70FB-14FE-C9BC-5D37DBDA8642" name="Vendedor PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:39:37 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3BE364A-74F4-351B-7388-8BB3F1CC7757</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

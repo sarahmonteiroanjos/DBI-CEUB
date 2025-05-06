@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5B2C2F6-5DB2-819D-8C00-B4D9952F2B47" name="Vendedor">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>00227ACE-8B9B-9CB4-AF85-D40F09BB03F3</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCompleto" id="D4E9C677-92A9-B7D8-0964-8431791E0A34">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>060DACBC-C756-9100-0B3C-FD3C63AEDE2F</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matricula" id="3BD6E2D6-A236-E88D-B4B3-7AEB5D51A059">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>C3BE364A-74F4-351B-7388-8BB3F1CC7757</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAB918DF-0F2C-713C-7C4B-8C10346F4989" name="Vendedor_PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:44:14 UTC</createdTime>
+<generatorID>0D906D2D-70FB-14FE-C9BC-5D37DBDA8642</generatorID>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3BD6E2D6-A236-E88D-B4B3-7AEB5D51A059"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

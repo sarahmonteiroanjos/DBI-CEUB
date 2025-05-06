@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4DDE54C8-CA1C-229A-40F8-88B24BFCD3BD">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:33:57 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

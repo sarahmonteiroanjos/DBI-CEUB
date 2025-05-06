@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="vedendorPedido" directorySegmentName="seg_0" id="6C7E4282-413E-1710-7C03-AAB58A519DAC">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-06 00:43:27 UTC</createdTime>
+<ownerDesignName>ava-pedidos2</ownerDesignName>
+<engineerTo>
+<item key="64DC5925-FC4D-1DB9-EA34-7313126C29AC" value="true"/>
+</engineerTo>
+<sourcePk>0D906D2D-70FB-14FE-C9BC-5D37DBDA8642</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>00227ACE-8B9B-9CB4-AF85-D40F09BB03F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EB847F8D-E914-C671-0DAA-98C2CDB78A33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
