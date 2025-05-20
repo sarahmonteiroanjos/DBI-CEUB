@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5B27DAF7-3847-9185-CC1D-0A6ADCDD97DE" name="Mensalidade">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-19 23:54:46 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="F1FF04C6-F329-9886-C9EF-2CCE64B1731E">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-19 23:55:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="A9844C09-CB7C-C26E-EC42-E4787138E4B3">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-19 23:55:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="077CC2E9-00A2-E61F-C14C-A7C7C3344676">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-19 23:56:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimentoMensalidade" id="B05DF8BF-095F-9810-32E4-A08FF3C2E62D">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-20 00:00:14 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamentoMensalidade" id="0E17DB0B-E08C-515A-D39E-A06B17FA8902">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-20 00:01:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="referencia" id="4B65733F-9138-1BE0-B4B5-471BCEC93667">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-20 00:02:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTilular" id="4E65D3CF-5631-36F5-8B32-69F9E192F3B7">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-20 00:27:42 UTC</createdTime>
+<generatorID>5733B89D-BAC9-CA0F-1600-C53558F4148E</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<referedAttribute>B82F84D6-6DC3-6D4C-C2B9-1B9838D434EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="731AFE26-54D7-F49D-1DAE-644453D412FB" name="Mensalidade PK">
+<createdBy>sarah.monteiro</createdBy>
+<createdTime>2025-05-19 23:55:39 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="7148423F-C906-AA14-FE86-39C9FF811794" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1FF04C6-F329-9886-C9EF-2CCE64B1731E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
